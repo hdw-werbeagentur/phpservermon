@@ -306,7 +306,8 @@ class InstallController extends AbstractController
             'webhook_url' => '',
             'webhook_json' => '',
             'telegram_id' => '',
-            'jabber' => ''
+            'jabber' => '',
+            'discord' => ''
         );
 
         $validator = $this->container->get('util.user.validator');
